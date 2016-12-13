@@ -2,12 +2,24 @@
 
 
 .image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+  max-width: 100%;
+  max-height: 100%;
 }
 
 header {
     background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav { 
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+  }
+
+footer {
+   background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
 }
@@ -33,12 +45,11 @@ position: absolute;
 
 }  
 
-}
 
-body {
-	color: #302833;
-  margin: 10em;
-  padding: 10em;
+main {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 
 }
 
@@ -66,7 +77,8 @@ display:inline;
 }
 
 .description {
-  font-weight: bold;
+  font-weight: italic;
+  font-size: 1em;
 }
 
 #navbar {

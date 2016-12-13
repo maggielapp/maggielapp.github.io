@@ -1,0 +1,7 @@
+body #hex {
+    background: #E80550;
+}
+
+h1, p #hex {
+    color: #FF0AAC;
+}
